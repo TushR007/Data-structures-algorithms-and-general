@@ -11,6 +11,8 @@ public class wileysampleproblem {
             String d = scn.next();
             int t = scn.nextInt();
 
+            map.put(d,t);
+
             if(map.containsKey("A")){
                 int val = map.get("A");
 
@@ -46,8 +48,6 @@ public class wileysampleproblem {
                     minc = val;
                 }
             }
-
-            map.put(d,t);
 
         }
 
